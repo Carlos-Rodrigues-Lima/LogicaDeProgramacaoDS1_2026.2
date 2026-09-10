@@ -1,2 +1,7 @@
 print ("carlos miguel")
 print ("Ola Mundo!")
+nome=input("qual seu nome")
+dia=input("em qual dia voce naceu")
+mes=input("em qual mes voce naceu")
+ano=input("em qual ano voce naceu")
+print(f"ola {nome} voce naceu no dia {dia} de {mes} do ano de {ano}")
