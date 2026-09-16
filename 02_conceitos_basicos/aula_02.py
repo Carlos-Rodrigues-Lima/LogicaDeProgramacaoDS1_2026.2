@@ -4,5 +4,7 @@
 # 3. Calcule o valor por pessoa
 # 4. Imprima formatado usando f-string
 
-valor=input ,type(str("qual o valor"))
-amigos=input ,type(float("quantos amigos vão pagar"))
+valor = float(input("qual o valor da conta "))
+amigos = int(input("quantos pessoas a na mesa ? "))
+valor_individual = valor/amigos
+print( f" cada um davem pagar , {valor_individual:.2f}")
