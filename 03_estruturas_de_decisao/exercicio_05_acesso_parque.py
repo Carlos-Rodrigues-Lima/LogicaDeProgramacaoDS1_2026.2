@@ -12,3 +12,10 @@ Imprima o tipo de bilhete e o valor final a pagar.
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+idade = int(input("qual sua idade "))
+if idade < 12:
+    print(" voce obtever 50 % de desconto vc pagara R$50 ")
+elif idade >= 60 :
+    print(" voce obtever 100 % de desconto vc nao pagara nada")
+else:
+    print(" voce pagara o preço cheio de  R100 ")

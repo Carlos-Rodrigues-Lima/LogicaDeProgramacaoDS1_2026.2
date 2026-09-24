@@ -13,7 +13,7 @@ Um **algoritmo** é uma sequência finita, ordenada e não ambígua de instruç�
 ┌─────────────────────────────────────────────────────────────┐
 │                 PENSAMENTO COMPUTACIONAL                    │
 ├───────────────┬─────────────────┬──────────────┬────────────┤
-│ 1. Decomposição│ 2. Reconhecimento│ 3. Abstração │ 4. Design  │
+│ 1. Decomposição│ 2. Reconhecimento│ 3. Abstração │ 4. Design│
 │                │    de Padrões   │              │ Algorítmico│
 │ Quebrar um    │ Identificar     │ Focar no que │ Criar o    │
 │ problema      │ repetições e    │ é essencial  │ passo a    │

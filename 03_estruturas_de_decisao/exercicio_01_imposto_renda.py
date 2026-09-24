@@ -13,3 +13,15 @@ Imprima "Isento" ou o valor total do imposto formatado com 2 casas decimais.
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+salario =  int(input("quanto voce ganhar"))
+if salario <= 2000:
+    print ("parabens voce estar insento de impostos ")    
+elif salario > 2000 and salario <= 3000 :
+    imposto = (salario - 2000) * 0.08
+    print(f"seu imsposto e {imposto}")
+elif salario > 3000 and salario <= 4500 :
+    imposto = ((salario - 3000) * 0.18) + (1000 * 0.08)
+    print(f"seu imsposto e {imposto}")
+elif salario > 4500 :
+    imposto = (1000 * 0.08) + (1500 * 0.18) + ((salario - 4500) * 0.28)
+    print(f"seu imsposto e {imposto}")
