@@ -3,7 +3,7 @@ DESAFIO 02: O DETETIVE DE IMPOSTOS E LICENÇAS
 Disciplina: Lógica de Programação com Python
 
 RELATÓRIO DA INVESTIGAÇÃO:
-O sistema municipal de tributos possui falhas lógicas na ordem das condições,
+O sistema municipal de t;ributos possui falhas lógicas na ordem das condições,
 fazendo com que faixas superiores nunca sejam atingidas.
 
 SUA MISSÃO:
