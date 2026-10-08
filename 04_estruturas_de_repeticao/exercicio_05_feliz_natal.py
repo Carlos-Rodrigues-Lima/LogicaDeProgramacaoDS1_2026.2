@@ -9,3 +9,5 @@ da palavra natal exatamente I vezes (ex: I=5 -> "Feliz nataaaal!").
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+a_s = int(input(" o quanto vc esta feliz de 1 a 10000000 : "))
+print(f"felix nat{ 'a' * a_s  }l ")

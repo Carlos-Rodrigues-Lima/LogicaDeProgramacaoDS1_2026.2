@@ -9,3 +9,11 @@ foram digitados. Ao final, imprima a quantidade total.
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+a = 0
+for i  in range(5):
+    num = int(input(' digite seu numero '))
+    if num % 2 == 0 :
+        a += 1
+print(f" a quantidade de numeros pares digitados foram { a }")
+
+
