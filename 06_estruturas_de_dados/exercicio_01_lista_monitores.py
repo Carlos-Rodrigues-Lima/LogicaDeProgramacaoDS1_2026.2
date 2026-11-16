@@ -10,3 +10,9 @@ ENUNCIADO:
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+monitores = ["Ryan Mesquita Damasceno"]
+monitores.append("João Silva")
+monitores.append("bruna soares")
+monitores[0] = "Ryan M. Damasceno vilvu da silva ramos"
+print("os classificados para monitores são: ")
+print(monitores)

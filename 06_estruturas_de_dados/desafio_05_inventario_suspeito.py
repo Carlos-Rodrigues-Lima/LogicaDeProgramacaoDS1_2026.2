@@ -12,3 +12,7 @@ SUA MISSÃO:
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+outra_lista =[]
+outra_lista = input("Digite os itens do inventário separados por vírgula: ").split(",")
+lista_geral = list(set(outra_lista))
+print("\nItens únicos do inventário: ", lista_geral)
